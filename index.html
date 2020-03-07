@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Scraping | </title>
+</head>
+
+<body>
+    <div class="list-items">
+        <div class="item">
+            <div class="header">
+                <h1 itemprop="name"><a href="#">Tessera</a></h1>
+                <p rel="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, modi. Illo
+                    dolorum laborum possimus molestias quae eligendi vel esse ut labore, id ipsum, sit eum, et ipsam
+                    officiis aut nulla. <br>
+                </p>
+            </div>
+            <div class="contact">
+                <span itemprop="employeeName">Mike Layn</span><br>
+                <span itemprop="employeeJobTitle">Marketing Assistant</span><br>
+                <span itemprop="telephone">Phone : (021)467-168</span><br>
+                <span itemprop="email">Email : mike.layn@tessera.io</span><br>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="header">
+                <h1 itemprop="name"><a href="#">Marcox</a></h1>
+                <p rel="description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus delectus quaerat asperiores
+                    tempora, sint illo eos temporibus cum id provident laboriosam quidem impedit libero, ex in
+                    labore similique laudantium facere. <br>
+                </p>
+            </div>
+            <div class="contact">
+                <span itemprop="employeeName">Marcox</span><br>
+                <span itemprop="employeeJobTitle">Software Engineer</span><br>
+                <span itemprop="telephone">Phone : (022)467-168</span><br>
+                <span itemprop="email">Email : jakekx@marcox.io</span><br>
+            </div>
+        </div>
+    </div>
+
+    <!-- data we want to scrape ends here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="script/scrapping-script.js"></script>
+</body>
+
+</html>
